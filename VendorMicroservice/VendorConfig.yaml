@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: vendorrepos
-        image: poda3acr.azurecr.io/vendorrepos:latest
+        image: pod3acr.azurecr.io/vendorrepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
